@@ -57,6 +57,19 @@ class TelescopeLink extends Tool
 
         return $this;
     }
+    
+    /**
+     * @param string $label
+     * Set the label property
+     *
+     * @return $this
+     */
+    public function label(string $label)
+    {
+        $this->label = $label;
+
+        return $this;
+    }
 
     /**
      * Create link with _Telescope_ logo.
