@@ -57,7 +57,7 @@ class TelescopeLink extends Tool
 
         return $this;
     }
-    
+
     /**
      * @param string $label
      * Set the label property.
