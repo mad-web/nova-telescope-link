@@ -117,6 +117,8 @@ public function tools()
         \MadWeb\NovaTelescopeLink\TelescopeLink::make()->target('blank'),
         // or
         \MadWeb\NovaTelescopeLink\TelescopeLink::useLogo()->target('blank'),
+        // or 
+        \MadWeb\NovaTelescopeLink\TelescopeLink::useLogo()->label('Laravel Telescope')->target('blank')
     ];
 }
 ```
