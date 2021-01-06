@@ -14,8 +14,6 @@ class TelescopeLink extends Tool
 
     public function __construct(?string $label = 'Telescope Debug', string $target = 'self')
     {
-        parent::__construct();
-
         $this->label = $label;
         $this->target = $target;
     }
